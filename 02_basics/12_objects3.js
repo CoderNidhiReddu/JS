@@ -15,4 +15,14 @@ const {courseteacher : teacher } = course
 console.log(teacher)
 
 
-// https://randomuser.me/api/           : paste in json formatter 
+/*  json files
+[
+    {},
+    {},
+    {}
+]
+*/
+
+
+
+// https://randomuser.me/api/           : paste in json formatter   to understand the api data
