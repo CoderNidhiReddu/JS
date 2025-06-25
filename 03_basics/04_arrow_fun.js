@@ -61,3 +61,8 @@ console.log(add(8,3))
 
 const user2 = () => ({username : "John"})
 console.log(user2())
+
+// arrow func in loops
+const myarr = [5,6,,5,2,6,7]
+// myarr.forEach(function () {})
+// myarr.forEach( () => {} )
