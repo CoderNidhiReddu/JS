@@ -31,5 +31,32 @@ const newnum = nums
                     .map((n)=> n + 3)
                     .filter((n)=> n<=56)
 
-console.log(newnum)
+// console.log(newnum)
 
+const n = [1,2,3,4,5]
+// const result = n.reduce((acc, currentval) => acc+currentval , 3)                        // starting value of accumulator is 3
+
+const result = n.reduce((acc,currval) => {
+    // console.log(`acc : ${acc} , current value : ${currval}`)
+    return acc+currval
+},0)
+
+// console.log(result)
+
+const car = [
+    {
+        name : "Porsche",
+        price : 19900000
+    },
+    {
+        name : "lamborgini",
+        price : 5000000
+    },
+    {
+        name : "BMW",
+        price : 2000000
+    }
+]
+
+const res = car.reduce ((acc,item)=> acc + item.price ,0)
+console.log(res)
